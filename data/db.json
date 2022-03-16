@@ -102,82 +102,28 @@
   ],
   "ExploreItems": {
     "Explore by category": [
-      [
-        "Entrepreneurship",
-        "entrepreneurship"
-      ],
-      [
-        "Science",
-        "science"
-      ],
-      [
-        "Economics",
-        "economics"
-      ],
-      [
-        "Corporate Culture",
-        "corporate-culture"
-      ],
-      [
-        "Psychology",
-        "psychology"
-      ],
-      [
-        "Nature & Environment",
-        "nature-and-environment"
-      ]
+      ["Entrepreneurship", "entrepreneurship"],
+      ["Science", "science"],
+      ["Economics", "economics"],
+      ["Corporate Culture", "corporate-culture"],
+      ["Psychology", "psychology"],
+      ["Nature & Environment", "nature-and-environment"]
     ],
     "See recently added titles": [
-      [
-        "Politics",
-        "politics"
-      ],
-      [
-        "Health & Nutrition",
-        "health-and-nutrition"
-      ],
-      [
-        "History",
-        "history"
-      ],
-      [
-        "Motivation & Inspiration",
-        "motivation-and-inspiration"
-      ],
-      [
-        "Productivity",
-        "productivity"
-      ],
-      [
-        "Career & Success",
-        "career-and-success"
-      ]
+      ["Politics", "politics"],
+      ["Health & Nutrition", "health-and-nutrition"],
+      ["History", "history"],
+      ["Motivation & Inspiration", "motivation-and-inspiration"],
+      ["Productivity", "productivity"],
+      ["Career & Success", "career-and-success"]
     ],
     "See popular titles": [
-      [
-        "Marketing & Sales",
-        "marketing-and-sales"
-      ],
-      [
-        "Personal Development",
-        "personal-development"
-      ],
-      [
-        "Communication Skills",
-        "communication-skills"
-      ],
-      [
-        "Money & Investments",
-        "money-and-investments"
-      ],
-      [
-        "Sex & Relationships",
-        "sex-and-relationships"
-      ],
-      [
-        "Education",
-        "education"
-      ]
+      ["Marketing & Sales", "marketing-and-sales"],
+      ["Personal Development", "personal-development"],
+      ["Communication Skills", "communication-skills"],
+      ["Money & Investments", "money-and-investments"],
+      ["Sex & Relationships", "sex-and-relationships"],
+      ["Education", "education"]
     ]
   },
   "FooterNavItems": {
@@ -194,11 +140,6 @@
       "Blinkist magazine",
       "Contact & help"
     ],
-    "Company": [
-      "About",
-      "Careers",
-      "Partners",
-      "Code of Conduct"
-    ]
+    "Company": ["About", "Careers", "Partners", "Code of Conduct"]
   }
 }
