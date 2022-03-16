@@ -1,0 +1,204 @@
+{
+  "CardsInfo": [
+    {
+      "id": 0,
+      "isFinishedReading": true,
+      "isAddedToLib": true,
+      "category": "TrendingBlinks",
+      "title": "Bring Your Human to Work",
+      "author": "Erica Keswin",
+      "time": "13",
+      "reads": "",
+      "imageSrc": "1"
+    },
+    {
+      "id": 1,
+      "isFinishedReading": true,
+      "isAddedToLib": true,
+      "category": "TrendingBlinks",
+      "title": "Employee to Entrepreneur",
+      "author": "Steve Glaveski",
+      "time": "15",
+      "reads": "",
+      "imageSrc": "11"
+    },
+    {
+      "id": 2,
+      "isFinishedReading": false,
+      "isAddedToLib": true,
+      "category": "TrendingBlinks",
+      "title": "Doesn’t Hurt to Ask",
+      "author": "Trey Gowdy",
+      "time": "13",
+      "reads": "1.9k",
+      "imageSrc": "3"
+    },
+    {
+      "id": 3,
+      "isFinishedReading": false,
+      "isAddedToLib": true,
+      "category": "AudioBlinks",
+      "title": "The Fate of Food",
+      "author": "Amanda Little",
+      "time": "12",
+      "reads": "16k",
+      "imageSrc": "4"
+    },
+    {
+      "id": 4,
+      "isFinishedReading": false,
+      "isAddedToLib": true,
+      "category": "JustAddedBlinks",
+      "title": "Lives of the Stoics",
+      "author": "Ryan Holiday, Stephen Hansel",
+      "time": "13",
+      "reads": "",
+      "imageSrc": "5"
+    },
+    {
+      "id": 5,
+      "isFinishedReading": true,
+      "isAddedToLib": true,
+      "category": "JustAddedBlinks",
+      "title": "Loving Your Business",
+      "author": "Debbie King",
+      "time": "13",
+      "reads": "",
+      "imageSrc": "6"
+    },
+    {
+      "id": 6,
+      "isFinishedReading": false,
+      "isAddedToLib": true,
+      "category": "JustAddedBlinks",
+      "title": "The Lonely Century",
+      "author": "Noreena Hertz",
+      "time": "15",
+      "reads": "",
+      "imageSrc": "7"
+    },
+    {
+      "id": 7,
+      "isFinishedReading": false,
+      "isAddedToLib": false,
+      "category": "AudioBlinks",
+      "title": "Eat Better, Feel Better",
+      "author": "Giada De Laurentiis",
+      "time": "13",
+      "reads": "1.9k",
+      "imageSrc": "8"
+    },
+    {
+      "id": 8,
+      "isFinishedReading": false,
+      "isAddedToLib": false,
+      "category": "AudioBlinks",
+      "title": "Dropshipping",
+      "author": "James Moore",
+      "time": "12",
+      "reads": "",
+      "imageSrc": "9"
+    }
+  ],
+  "ExploreItems": {
+    "Explore by category": [
+      [
+        "Entrepreneurship",
+        "entrepreneurship"
+      ],
+      [
+        "Science",
+        "science"
+      ],
+      [
+        "Economics",
+        "economics"
+      ],
+      [
+        "Corporate Culture",
+        "corporate-culture"
+      ],
+      [
+        "Psychology",
+        "psychology"
+      ],
+      [
+        "Nature & Environment",
+        "nature-and-environment"
+      ]
+    ],
+    "See recently added titles": [
+      [
+        "Politics",
+        "politics"
+      ],
+      [
+        "Health & Nutrition",
+        "health-and-nutrition"
+      ],
+      [
+        "History",
+        "history"
+      ],
+      [
+        "Motivation & Inspiration",
+        "motivation-and-inspiration"
+      ],
+      [
+        "Productivity",
+        "productivity"
+      ],
+      [
+        "Career & Success",
+        "career-and-success"
+      ]
+    ],
+    "See popular titles": [
+      [
+        "Marketing & Sales",
+        "marketing-and-sales"
+      ],
+      [
+        "Personal Development",
+        "personal-development"
+      ],
+      [
+        "Communication Skills",
+        "communication-skills"
+      ],
+      [
+        "Money & Investments",
+        "money-and-investments"
+      ],
+      [
+        "Sex & Relationships",
+        "sex-and-relationships"
+      ],
+      [
+        "Education",
+        "education"
+      ]
+    ]
+  },
+  "FooterNavItems": {
+    "Editorial": [
+      "Book lists",
+      "What is NonFiction",
+      "What to read next?",
+      "Benefits of reading"
+    ],
+    "Useful links": [
+      "Pricing",
+      "Blinkist business",
+      "Gift cards",
+      "Blinkist magazine",
+      "Contact & help"
+    ],
+    "Company": [
+      "About",
+      "Careers",
+      "Partners",
+      "Code of Conduct"
+    ]
+  }
+}
