@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Cera Pro Medium";
+  src: local("Cera Pro"),
+    url("../public/res/fonts/cera-pro-font/Cera\ Pro\ Medium.otf")
+      format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Cera Pro Light";
+  src: local("Cera Pro"),
+    url("../public/res/fonts/cera-pro-font/Cera\ Pro\ Light.otf")
+      format("opentype");
+  font-weight: normal;
+}
