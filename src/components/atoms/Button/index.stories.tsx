@@ -27,13 +27,18 @@ export const AddToLibrary: ComponentStory<typeof CustomButton> = () => (
 );
 
 export const ExploreBtn: ComponentStory<typeof CustomButton> = () => (
-  <CustomButton size="large" variant="text" endIcon={arrowIcon}>
+  <CustomButton
+    className="explore"
+    size="large"
+    variant="text"
+    endIcon={arrowIcon}
+  >
     Explore
   </CustomButton>
 );
 
 export const ReadNow: ComponentStory<typeof CustomButton> = () => (
-  <CustomButton variant="outlined" color="primary">
+  <CustomButton className="readNow" variant="outlined" color="primary">
     <TypographyText variant="body1" component="div">
       Read now
     </TypographyText>

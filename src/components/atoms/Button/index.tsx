@@ -20,10 +20,14 @@ const useStyles = makeStyles({
     },
   },
   explore: {
+    color: "inherit",
     "&:hover": {
       backgroundColor: "#FFFFFF",
       borderBottom: "2px solid #2ce080",
     },
+  },
+  readNow: {
+    borderColor: "#000",
   },
 });
 
@@ -33,7 +37,7 @@ interface ButtonProps {
   children?: any;
   sx?: Object;
   onclick?: React.MouseEventHandler<HTMLElement>;
-  className?: "addToLib" | "explore";
+  className?: "addToLib" | "explore" | "readNow";
   startIcon?: JSX.Element;
   endIcon?: JSX.Element;
   size?: "large" | "medium" | "small";
