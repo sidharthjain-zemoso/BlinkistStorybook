@@ -22,14 +22,14 @@ describe("Header", () => {
   describe("Explore Button Functionality in  header", () => {
     test("presence of explore button in header", () => {
       render(<MockHeader />);
-      const buttonElement = screen.getByRole("button");
+      const buttonElement = screen.getByRole("button", { name: /explore/i });
       expect(buttonElement).toHaveTextContent("Explore");
       expect(buttonElement).toBeInTheDocument();
     });
 
     test("should contain 18 explore items", async () => {
       render(<MockHeader />);
-      const buttonElement = screen.getByRole("button");
+      const buttonElement = screen.getByRole("button", { name: /explore/i });
       fireEvent.click(buttonElement);
 
       const exploreContentElements = await screen.findAllByTestId(
