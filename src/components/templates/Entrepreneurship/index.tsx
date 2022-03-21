@@ -1,3 +1,4 @@
+import { useAuth0 } from "@auth0/auth0-react";
 import { Box, Grid } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import axios from "axios";
@@ -39,20 +40,26 @@ type EntrepreneurshipTemplateProps = {
 const EntrepreneurshipTemplate: React.FC<EntrepreneurshipTemplateProps> = (
   props
 ) => {
+  const { isAuthenticated } = useAuth0();
   const styleClasses = useStyles();
   const navigate = useNavigate();
   const handleClick = async (data: ICard) => {
-    if (!data.isAddedToLib) {
-      await axios
-        .patch(`http://localhost:3000/cardsInfo/${data.id}`, {
-          isAddedToLib: true,
-        })
-        .then((response: any) => {
-          let path = `/book/${data.id}`;
-          navigate(path);
-        });
+    if (isAuthenticated) {
+      if (!data.isAddedToLib) {
+        await axios
+          .patch(`http://localhost:3000/cardsInfo/${data.id}`, {
+            isAddedToLib: true,
+          })
+          .then((response: any) => {
+            let path = `/book/${data.id}`;
+            navigate(path);
+          });
+      } else {
+        let path = `/book/${data.id}`;
+        navigate(path);
+      }
     } else {
-      let path = `/book/${data.id}`;
+      let path = "/";
       navigate(path);
     }
   };

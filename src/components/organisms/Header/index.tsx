@@ -1,4 +1,12 @@
-import { Backdrop, Box, Container, IconButton, Toolbar } from "@mui/material";
+import {
+  Backdrop,
+  Box,
+  Container,
+  IconButton,
+  Menu,
+  MenuItem,
+  Toolbar,
+} from "@mui/material";
 import TypographyText from "../../atoms/Typography";
 import Icon from "../../atoms/Icon";
 import Logo from "../../atoms/Logo";
@@ -10,6 +18,10 @@ import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 
 import makeStyles from "@mui/styles/makeStyles";
+import Logout from "@mui/icons-material/Logout";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import { useAuth0 } from "@auth0/auth0-react";
+import { Login } from "@mui/icons-material";
 
 const useStyles = makeStyles({
   headerContainer: {
@@ -41,6 +53,7 @@ type HeaderProps = {
 };
 
 const Header: React.FC<HeaderProps> = ({ sx, ...rest }) => {
+  const { isAuthenticated, logout, loginWithRedirect } = useAuth0();
   const styleClasses = useStyles();
 
   const [exploreIcon, setExploreIcon] = React.useState(
@@ -62,6 +75,17 @@ const Header: React.FC<HeaderProps> = ({ sx, ...rest }) => {
   const avatarMenuOpen = Boolean(anchorEl);
   const handleAvatarClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
+  };
+  const handleAvatarMenuClose = () => {
+    setAnchorEl(null);
+  };
+
+  const handleLogout = () => {
+    logout({ returnTo: window.location.origin });
+  };
+
+  const handleLogin = () => {
+    loginWithRedirect();
   };
 
   return (
@@ -86,7 +110,7 @@ const Header: React.FC<HeaderProps> = ({ sx, ...rest }) => {
           <Box className={styleClasses.headerHolder}>
             <Box className={styleClasses.headerWrapper}>
               <Logo id="blinkist-logo" url="/res/logo/Blinklist.png" />
-              <Icon url="/res/icons/search.png" />
+              {isAuthenticated ? <Icon url="/res/icons/search.png" /> : <></>}
               <CustomButton
                 className="explore"
                 size="large"
@@ -103,14 +127,18 @@ const Header: React.FC<HeaderProps> = ({ sx, ...rest }) => {
                 </TypographyText>
               </CustomButton>
 
-              <TypographyText
-                variant="body1"
-                component="div"
-                color={theme.palette.textcolor.main}
-                sx={{ marginLeft: "2%", minWidth: 100 }}
-              >
-                My Library
-              </TypographyText>
+              {isAuthenticated ? (
+                <TypographyText
+                  variant="body1"
+                  component="div"
+                  color={theme.palette.textcolor.main}
+                  sx={{ marginLeft: "2%", minWidth: 100 }}
+                >
+                  My Library
+                </TypographyText>
+              ) : (
+                <></>
+              )}
             </Box>
 
             <Box>
@@ -123,6 +151,32 @@ const Header: React.FC<HeaderProps> = ({ sx, ...rest }) => {
               >
                 <AvatarWithIcon>A</AvatarWithIcon>
               </IconButton>
+
+              <Menu
+                id="basic-menu"
+                anchorEl={anchorEl}
+                open={avatarMenuOpen}
+                onClose={handleAvatarMenuClose}
+                MenuListProps={{
+                  "aria-labelledby": "basic-button",
+                }}
+              >
+                {isAuthenticated ? (
+                  <MenuItem onClick={handleLogout}>
+                    <ListItemIcon>
+                      <Logout fontSize="small" />
+                    </ListItemIcon>
+                    Logout
+                  </MenuItem>
+                ) : (
+                  <MenuItem onClick={handleLogin}>
+                    <ListItemIcon>
+                      <Login fontSize="small" />
+                    </ListItemIcon>
+                    Login
+                  </MenuItem>
+                )}
+              </Menu>
             </Box>
           </Box>
         </Toolbar>
