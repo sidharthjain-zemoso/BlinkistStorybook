@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders cover image component 1`] = `
+<img
+  alt="book cover"
+  src="/res/cover images/2.png"
+/>
+`;

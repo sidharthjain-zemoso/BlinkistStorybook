@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a typography component 1`] = `
+<div
+  class="MuiTypography-root MuiTypography-heading css-s7yxi6-MuiTypography-root"
+>
+  some text
+</div>
+`;

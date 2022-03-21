@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress Bar renders a progress bar component 1`] = `
+<div
+  data-testid="progress-bar-id"
+  style="height: 15px; background-color: rgb(241, 246, 244);"
+>
+  <div
+    style="width: 30%; height: 15px; background-color: rgb(225, 236, 252);"
+  />
+</div>
+`;
