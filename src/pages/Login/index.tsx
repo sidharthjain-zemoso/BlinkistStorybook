@@ -39,23 +39,7 @@ const useStyles = makeStyles({
 });
 
 const Login = () => {
-  const { loginWithRedirect } = useAuth0();
   const styleClasses = useStyles();
-
-  const [exploreIcon, setExploreIcon] = React.useState(
-    <Icon url="/res/icons/down-arrow.png" />
-  );
-  const [open, setOpen] = React.useState(false);
-  const handleClose = () => {
-    setOpen(false);
-    setExploreIcon(<Icon url="/res/icons/down-arrow.png" />);
-  };
-  const handleToggle = () => {
-    open
-      ? setExploreIcon(<Icon url="/res/icons/down-arrow.png" />)
-      : setExploreIcon(<Icon url="/res/icons/up-arrow.png" />);
-    setOpen(!open);
-  };
 
   return (
     <Grid
@@ -65,43 +49,6 @@ const Login = () => {
       spacing={20}
     >
       <Grid item>
-        {/* <Box className={styleClasses.header}>
-          <Backdrop
-            sx={{ color: "#fff", zIndex: 2, top: 80, width: "100%" }}
-            open={open}
-            onClick={handleClose}
-          >
-            <Explore sx={{ position: "absolute", top: 0 }} />
-          </Backdrop>
-          <Box className={styleClasses.headerContentWrapper}>
-            <Logo url="/res/logo/Blinklist.png" />
-            <CustomButton
-              className="explore"
-              size="large"
-              variant="text"
-              endIcon={exploreIcon}
-              onclick={handleToggle}
-            >
-              <TypographyText
-                variant="body1"
-                component="div"
-                color={theme.palette.textcolor.main}
-              >
-                Explore
-              </TypographyText>
-            </CustomButton>
-          </Box>
-          <CustomButton
-            variant="text"
-            size="large"
-            sx={{ color: "inherit" }}
-            onclick={() => loginWithRedirect()}
-          >
-            <TypographyText component="div" variant="body1">
-              Log In
-            </TypographyText>
-          </CustomButton>
-        </Box> */}
         <Header />
       </Grid>
       <Grid
