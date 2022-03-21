@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/molecules/Tabs/index.test.tsx">
+    <testCase name="tabs renders a custom tab component with two tabs" duration="297"/>
+    <testCase name="tabs tests onclick tab2" duration="135"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/molecules/NavSection/index.test.tsx">
+    <testCase name="Nav Section renders NavSection component in footer" duration="179"/>
+    <testCase name="Nav Section should contain 3 categories" duration="55"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/organisms/BookCard/index.test.tsx">
+    <testCase name="Book Card renders a default BookCard" duration="152"/>
+    <testCase name="Book Card renders a addToLib variant BookCard" duration="365"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/organisms/Header/index.test.tsx">
+    <testCase name="Header Blinkist Logo render Blinkist Logo" duration="489"/>
+    <testCase name="Header Explore Button Functionality in  header presence of explore button in header" duration="280">
+      <failure message="TestingLibraryElementError: Found multiple elements with the role &quot;button&quot;"><![CDATA[TestingLibraryElementError: Found multiple elements with the role "button"
+
+Here are the matching elements:
+
+Ignored nodes: comments, <script />, <style />
+<button
+  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeLarge MuiButton-textSizeLarge MuiButtonBase-root makeStyles-explore-15 css-1b4y6jr-MuiButtonBase-root-MuiButton-root"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="MuiTypography-root MuiTypography-body1 css-j97sbv-MuiTypography-root"
+  >
+    Explore
+  </div>
+  <span
+    class="MuiButton-endIcon MuiButton-iconSizeLarge css-z4rqyd-MuiButton-endIcon"
+  >
+    <img
+      alt="icon"
+      src="/res/icons/down-arrow.png"
+      style="margin-right: 5px;"
+    />
+  </span>
+</button>
+
+Ignored nodes: comments, <script />, <style />
+<button
+  aria-haspopup="true"
+  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+  id="basic-button"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="undefined makeStyles-root-16"
+    data-testid="account-avatar"
+    style="align-items: center;"
+  >
+    <div
+      class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1cr0a2k-MuiAvatar-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+        style="text-align: center;"
+      >
+        A
+      </h6>
+    </div>
+    <img
+      alt="icon"
+      src="/res/icons/down-arrow.png"
+      style="margin-right: 5px; height: 24px; width: 24px;"
+    />
+  </div>
+  <span
+    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+  />
+</button>
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, <script />, <style />
+<body>
+  <div>
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorTransparent MuiAppBar-positionStatic makeStyles-headerContainer-9 css-1vz6br6-MuiPaper-root-MuiAppBar-root"
+      data-testid="header-organism-id"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-regular css-1cndkqf-MuiToolbar-root"
+        >
+          <div
+            aria-hidden="true"
+            class="MuiBackdrop-root css-wd1q7g-MuiBackdrop-root"
+            style="opacity: 0; visibility: hidden;"
+          >
+            <div
+              class="explore-container"
+              style="background-color: rgb(241, 246, 244); display: grid; justify-content: space-around; width: 100%; position: absolute; top: 0px;"
+            >
+              <div
+                class="explore-wrapper"
+                style="width: 900px; padding-bottom: 20px;"
+              >
+                <div
+                  class="explore-category"
+                  style="padding: 5px; margin: 10px;"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-10mzr36-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-1m75f5p-MuiTypography-root"
+                      >
+                        Explore by category
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-1m75f5p-MuiTypography-root"
+                      >
+                        See recently added titles
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-1m75f5p-MuiTypography-root"
+                      >
+                        See popular titles
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="explore-items-container"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-10mzr36-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="makeStyles-headerHolder-11 MuiBox-root css-0"
+          >
+            <div
+              class="makeStyles-headerWrapper-10 MuiBox-root css-0"
+            >
+              <img
+                alt="Logo"
+                data-testid="blinkist-logo"
+                id="blinkist-logo"
+                src="/res/logo/Blinklist.png"
+              />
+              <img
+                alt="icon"
+                src="/res/icons/search.png"
+                style="margin-right: 5px;"
+              />
+              <button
+                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeLarge MuiButton-textSizeLarge MuiButtonBase-root makeStyles-explore-15 css-1b4y6jr-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <div
+                  class="MuiTypography-root MuiTypography-body1 css-j97sbv-MuiTypography-root"
+                >
+                  Explore
+                </div>
+                <span
+                  class="MuiButton-endIcon MuiButton-iconSizeLarge css-z4rqyd-MuiButton-endIcon"
+                >
+                  <img
+                    alt="icon"
+                    src="/res/icons/down-arrow.png"
+                    style="margin-right: 5px;"
+                  />
+                </span>
+              </button>
+              <div
+                class="MuiTypography-root MuiTypography-body1 css-j97sbv-MuiTypography-root"
+                style="margin-left: 2%; min-width: 100px;"
+              >
+                My Library
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <button
+                aria-haspopup="true"
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                id="basic-button"
+                tabindex="0"
+                type="button"
+              >
+                <div
+                  class="undefined makeStyles-root-16"
+                  data-testid="account-avatar"
+                  style="align-items: center;"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1cr0a2k-MuiAvatar-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+                      style="text-align: center;"
+                    >
+                      A
+                    </h6>
+                  </div>
+                  <img
+                    alt="icon"
+                    src="/res/icons/down-arrow.png"
+                    style="margin-right: 5px; height: 24px; width: 24px;"
+                  />
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+</body>
+    at Object.getElementError (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/@testing-library/dom/dist/config.js:38:19)
+    at getElementError (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/@testing-library/dom/dist/query-helpers.js:25:35)
+    at getMultipleElementsFoundError (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/@testing-library/dom/dist/query-helpers.js:29:10)
+    at /home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/@testing-library/dom/dist/query-helpers.js:66:13
+    at getByRole (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at Object.<anonymous> (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/organisms/Header/index.test.tsx:25:36)
+    at Promise.then.completed (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:60:9)
+    at run (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-runner/build/runTest.js:475:34)
+    at Object.worker (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-runner/build/testWorker.js:133:12)]]></failure>
+    </testCase>
+    <testCase name="Header Explore Button Functionality in  header should contain 18 explore items" duration="181">
+      <failure message="TestingLibraryElementError: Found multiple elements with the role &quot;button&quot;"><![CDATA[TestingLibraryElementError: Found multiple elements with the role "button"
+
+Here are the matching elements:
+
+Ignored nodes: comments, <script />, <style />
+<button
+  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeLarge MuiButton-textSizeLarge MuiButtonBase-root makeStyles-explore-23 css-1b4y6jr-MuiButtonBase-root-MuiButton-root"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="MuiTypography-root MuiTypography-body1 css-j97sbv-MuiTypography-root"
+  >
+    Explore
+  </div>
+  <span
+    class="MuiButton-endIcon MuiButton-iconSizeLarge css-z4rqyd-MuiButton-endIcon"
+  >
+    <img
+      alt="icon"
+      src="/res/icons/down-arrow.png"
+      style="margin-right: 5px;"
+    />
+  </span>
+</button>
+
+Ignored nodes: comments, <script />, <style />
+<button
+  aria-haspopup="true"
+  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+  id="basic-button"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="undefined makeStyles-root-24"
+    data-testid="account-avatar"
+    style="align-items: center;"
+  >
+    <div
+      class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1cr0a2k-MuiAvatar-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+        style="text-align: center;"
+      >
+        A
+      </h6>
+    </div>
+    <img
+      alt="icon"
+      src="/res/icons/down-arrow.png"
+      style="margin-right: 5px; height: 24px; width: 24px;"
+    />
+  </div>
+  <span
+    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+  />
+</button>
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, <script />, <style />
+<body>
+  <div>
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorTransparent MuiAppBar-positionStatic makeStyles-headerContainer-17 css-1vz6br6-MuiPaper-root-MuiAppBar-root"
+      data-testid="header-organism-id"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-regular css-1cndkqf-MuiToolbar-root"
+        >
+          <div
+            aria-hidden="true"
+            class="MuiBackdrop-root css-wd1q7g-MuiBackdrop-root"
+            style="opacity: 0; visibility: hidden;"
+          >
+            <div
+              class="explore-container"
+              style="background-color: rgb(241, 246, 244); display: grid; justify-content: space-around; width: 100%; position: absolute; top: 0px;"
+            >
+              <div
+                class="explore-wrapper"
+                style="width: 900px; padding-bottom: 20px;"
+              >
+                <div
+                  class="explore-category"
+                  style="padding: 5px; margin: 10px;"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-10mzr36-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-1m75f5p-MuiTypography-root"
+                      >
+                        Explore by category
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-1m75f5p-MuiTypography-root"
+                      >
+                        See recently added titles
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-1m75f5p-MuiTypography-root"
+                      >
+                        See popular titles
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="explore-items-container"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-10mzr36-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="makeStyles-headerHolder-19 MuiBox-root css-0"
+          >
+            <div
+              class="makeStyles-headerWrapper-18 MuiBox-root css-0"
+            >
+              <img
+                alt="Logo"
+                data-testid="blinkist-logo"
+                id="blinkist-logo"
+                src="/res/logo/Blinklist.png"
+              />
+              <img
+                alt="icon"
+                src="/res/icons/search.png"
+                style="margin-right: 5px;"
+              />
+              <button
+                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeLarge MuiButton-textSizeLarge MuiButtonBase-root makeStyles-explore-23 css-1b4y6jr-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <div
+                  class="MuiTypography-root MuiTypography-body1 css-j97sbv-MuiTypography-root"
+                >
+                  Explore
+                </div>
+                <span
+                  class="MuiButton-endIcon MuiButton-iconSizeLarge css-z4rqyd-MuiButton-endIcon"
+                >
+                  <img
+                    alt="icon"
+                    src="/res/icons/down-arrow.png"
+                    style="margin-right: 5px;"
+                  />
+                </span>
+              </button>
+              <div
+                class="MuiTypography-root MuiTypography-body1 css-j97sbv-MuiTypography-root"
+                style="margin-left: 2%; min-width: 100px;"
+              >
+                My Library
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <button
+                aria-haspopup="true"
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                id="basic-button"
+                tabindex="0"
+                type="button"
+              >
+                <div
+                  class="undefined makeStyles-root-24"
+                  data-testid="account-avatar"
+                  style="align-items: center;"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1cr0a2k-MuiAvatar-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+                      style="text-align: center;"
+                    >
+                      A
+                    </h6>
+                  </div>
+                  <img
+                    alt="icon"
+                    src="/res/icons/down-arrow.png"
+                    style="margin-right: 5px; height: 24px; width: 24px;"
+                  />
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+</body>
+    at Object.getElementError (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/@testing-library/dom/dist/config.js:38:19)
+    at getElementError (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/@testing-library/dom/dist/query-helpers.js:25:35)
+    at getMultipleElementsFoundError (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/@testing-library/dom/dist/query-helpers.js:29:10)
+    at /home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/@testing-library/dom/dist/query-helpers.js:66:13
+    at getByRole (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at Object.<anonymous> (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/organisms/Header/index.test.tsx:32:36)
+    at Promise.then.completed (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:60:9)
+    at run (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-runner/build/runTest.js:475:34)
+    at Object.worker (/home/sidhaj/Documents/training/storybook-apps/blinkistNew/node_modules/jest-runner/build/testWorker.js:133:12)]]></failure>
+    </testCase>
+    <testCase name="Header MyLibrary renders MyLibrary" duration="96"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/pages/BookDetailView/index.test.tsx">
+    <testCase name="BookDetailView Page should contain header" duration="868"/>
+    <testCase name="BookDetailView Page renders book details" duration="214"/>
+    <testCase name="BookDetailView Page should contain Tabs" duration="262"/>
+    <testCase name="BookDetailView Page should contain footer" duration="366"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/molecules/TextWithIcon/index.test.tsx">
+    <testCase name="Text with Icon renders a text with icon with icon at end" duration="161"/>
+    <testCase name="Text with Icon renders a text with icon with icon at start" duration="60"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/pages/MyLibrary/index.test.tsx">
+    <testCase name="My Library Page should contain header" duration="647"/>
+    <testCase name="My Library Page should contain My Library heading" duration="512"/>
+    <testCase name="My Library Page should contain Tabs" duration="256"/>
+    <testCase name="My Library Page should contain library cards" duration="538"/>
+    <testCase name="My Library Page should contain finsished reading cards" duration="615"/>
+    <testCase name="My Library Page should contain footer" duration="129"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/templates/Entrepreneurship/index.test.tsx">
+    <testCase name="MyLibrary Template Render MyLibrary Template" duration="271"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/templates/MyLibrary/index.test.tsx">
+    <testCase name="MyLibrary Template Render MyLibrary Template" duration="88"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/organisms/Explore/index.test.tsx">
+    <testCase name="Explore DropDown should contain Politics  element" duration="325"/>
+    <testCase name="Explore DropDown should contain 18 explore items" duration="157"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/atoms/ProgressBar/index.test.tsx">
+    <testCase name="Progress Bar renders a progress bar component" duration="75"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/molecules/Banner/index.test.tsx">
+    <testCase name="renders a banner" duration="267"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/organisms/Footer/index.test.tsx">
+    <testCase name="Footer renders Footer Component" duration="142"/>
+    <testCase name="Footer checks if Copyright text component is present" duration="40"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/atoms/BookCoverImage/index.test.tsx">
+    <testCase name="renders cover image component" duration="68"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/atoms/Button/index.test.tsx">
+    <testCase name="CustomButton renders custom Button Component" duration="148"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/atoms/Logo/index.test.tsx">
+    <testCase name="renders icon component" duration="84"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/atoms/Typography/index.test.tsx">
+    <testCase name="renders a typography component" duration="48"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/atoms/Icon/index.test.tsx">
+    <testCase name="renders icon component" duration="103"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/molecules/AvatarWithIcon/index.test.tsx">
+    <testCase name="renders avatar with icon component" duration="129"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/components/molecules/Search Bar/index.test.tsx">
+    <testCase name="Search Bar renders a SearchBar" duration="206"/>
+    <testCase name="Search Bar should be able to type in input" duration="103"/>
+  </file>
+  <file path="/home/sidhaj/Documents/training/storybook-apps/blinkistNew/src/pages/Entrepreneurship/index.test.tsx">
+    <testCase name="Entrepreneurship Page should contain header" duration="563"/>
+    <testCase name="Entrepreneurship Page should contain Card Banner" duration="150"/>
+    <testCase name="Entrepreneurship Page should contain Search Bar" duration="143"/>
+    <testCase name="Entrepreneurship Page should correctly perform search operation" duration="658"/>
+    <testCase name="Entrepreneurship Page should contain trending blinks" duration="122"/>
+    <testCase name="Entrepreneurship Page should contain just added blinks" duration="110"/>
+    <testCase name="Entrepreneurship Page should contain featured audio blinks" duration="121"/>
+    <testCase name="Entrepreneurship Page should contain footer" duration="95"/>
+  </file>
+</testExecutions>

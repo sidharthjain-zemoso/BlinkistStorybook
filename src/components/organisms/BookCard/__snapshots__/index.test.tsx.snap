@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book Card renders a addToLib variant BookCard 1`] = `
+<div
+  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root undefined makeStyles-cardContainer-4 css-31xq66-MuiPaper-root-MuiCard-root"
+  data-testid="book-card-id"
+>
+  <img
+    alt="Book Cover"
+    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+    height="350"
+    src="/res/cover images/1.png"
+  />
+  <div
+    class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+  >
+    <div
+      class="card-content-wrapper"
+    >
+      <div
+        class="makeStyles-cardContentWrapperELement-5"
+      >
+        <div
+          class="MuiTypography-root MuiTypography-subtitle1 css-19oa8dr-MuiTypography-root"
+        >
+          Bring Your Human to Work
+        </div>
+      </div>
+      <div
+        class="makeStyles-cardContentWrapperELement-5"
+      >
+        <div
+          class="MuiTypography-root MuiTypography-body1 css-nzdi-MuiTypography-root"
+        >
+          Erica Keswin
+        </div>
+      </div>
+      <div
+        class="makeStyles-readElement-6 makeStyles-cardContentWrapperELement-5"
+      >
+        <div
+          class="read-time"
+          style="display: flex; align-items: center;"
+        >
+          <img
+            alt="icon"
+            src="/res/icons/clock.png"
+            style="margin-right: 5px;"
+          />
+          <div
+            class="MuiTypography-root MuiTypography-caption3 css-1igz8yl-MuiTypography-root"
+          >
+            13
+            -minute read
+          </div>
+        </div>
+        <div
+          class="read-num"
+          style="display: flex; align-items: center;"
+        >
+          <img
+            alt="icon"
+            src="/res/icons/user.png"
+            style="margin-right: 5px;"
+          />
+          <div
+            class="MuiTypography-root MuiTypography-caption3 css-1igz8yl-MuiTypography-root"
+          >
+            5k
+             reads
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <button
+    class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeLarge MuiButton-outlinedSizeLarge MuiButtonBase-root makeStyles-addToLib-7 css-1b1cqo3-MuiButtonBase-root-MuiButton-root"
+    id="cardButtonId"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-startIcon MuiButton-iconSizeLarge css-htszrh-MuiButton-startIcon"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+        data-testid="AddIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+        />
+      </svg>
+    </span>
+    <div
+      class="MuiTypography-root MuiTypography-body1 css-1ty6goh-MuiTypography-root"
+    >
+      Add To Library
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Book Card renders a default BookCard 1`] = `
+<div
+  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root undefined makeStyles-cardContainer-1 css-31xq66-MuiPaper-root-MuiCard-root"
+  data-testid="book-card-id"
+>
+  <img
+    alt="Book Cover"
+    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+    height="350"
+    src="/res/cover images/1.png"
+  />
+  <div
+    class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+  >
+    <div
+      class="card-content-wrapper"
+    >
+      <div
+        class="makeStyles-cardContentWrapperELement-2"
+      >
+        <div
+          class="MuiTypography-root MuiTypography-subtitle1 css-19oa8dr-MuiTypography-root"
+        >
+          Bring Your Human to Work
+        </div>
+      </div>
+      <div
+        class="makeStyles-cardContentWrapperELement-2"
+      >
+        <div
+          class="MuiTypography-root MuiTypography-body1 css-nzdi-MuiTypography-root"
+        >
+          Erica Keswin
+        </div>
+      </div>
+      <div
+        class="makeStyles-readElement-3 makeStyles-cardContentWrapperELement-2"
+      >
+        <div
+          class="read-time"
+          style="display: flex; align-items: center;"
+        >
+          <img
+            alt="icon"
+            src="/res/icons/clock.png"
+            style="margin-right: 5px;"
+          />
+          <div
+            class="MuiTypography-root MuiTypography-caption3 css-1igz8yl-MuiTypography-root"
+          >
+            13
+            -minute read
+          </div>
+        </div>
+        <div
+          class="read-num"
+          style="display: flex; align-items: center;"
+        >
+          <img
+            alt="icon"
+            src="/res/icons/user.png"
+            style="margin-right: 5px;"
+          />
+          <div
+            class="MuiTypography-root MuiTypography-caption3 css-1igz8yl-MuiTypography-root"
+          >
+            5k
+             reads
+          </div>
+        </div>
+      </div>
+      <div
+        class="makeStyles-cardContentWrapperELement-2"
+      >
+        <img
+          alt="icon"
+          src="/res/icons/more.png"
+          style="margin-right: 5px; margin-left: auto; display: flex; margin-top: 10px;"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="progress-bar-id"
+    style="height: 15px; background-color: rgb(241, 246, 244); margin-top: 20px;"
+  >
+    <div
+      style="width: 30%; height: 15px; background-color: rgb(225, 236, 252);"
+    />
+  </div>
+</div>
+`;

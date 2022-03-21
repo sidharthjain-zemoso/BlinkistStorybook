@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a banner 1`] = `
+Array [
+  <div
+    class="banner-container"
+    data-testid="banner-id"
+    style="background-color: rgb(241, 246, 244); width: 100%;"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-1cvp9eb-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-10 MuiGrid-grid-xs-7 css-1fs7rb-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <div
+            class="MuiTypography-root MuiTypography-heading css-s7yxi6-MuiTypography-root"
+          >
+            Explore Books on entrepreneurship
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <div
+            class="MuiTypography-root MuiTypography-subtitle2 css-13dyvr6-MuiTypography-root"
+          >
+            Everything you need to know about thriving on a shoestring budget, making your first million, and hiring right from the start.
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+      >
+        <img
+          alt="Logo"
+          src="/res/logo/reading.png"
+        />
+      </div>
+    </div>
+  </div>,
+]
+`;
